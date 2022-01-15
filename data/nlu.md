@@ -331,6 +331,13 @@
 
 ## intent:weather
 - temperatura
+- quiero clasificar un reporte
+- clasificación de un sistema
+- clasificar un reporte
+- clasificación de falla
+- clasificar reporte
+- deseo clasificar una falla
+- deseo clasificar un reporte
 
 ## intent:city
 - freno
