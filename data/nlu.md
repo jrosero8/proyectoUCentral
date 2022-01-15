@@ -338,10 +338,14 @@
 - clasificar reporte
 - deseo clasificar una falla
 - deseo clasificar un reporte
+- clasificar
+- temp
 
 ## intent:city
 - freno
 - gps
+- el gps no funciona
+- el vhf no funciona
 
 ## synonym:descripcion
 - descripción

@@ -31,8 +31,6 @@ intents:
     use_entities: true
 - feedback:
     use_entities: true
-- clima:
-    use_entities: true
 - weather:
     use_entities: true
 - city:
@@ -182,5 +180,6 @@ actions:
 - utter_ask_feedback
 - utter_feedback_pos
 - utter_feedback_neg
+- action_weather_api
 forms: {}
 e2e_actions: []
