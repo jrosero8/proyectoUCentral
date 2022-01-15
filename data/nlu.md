@@ -340,12 +340,18 @@
 - deseo clasificar un reporte
 - clasificar
 - temp
+- clasificar una falla
+- quiero clasificar un sistema
 
 ## intent:city
 - freno
 - gps
 - el gps no funciona
 - el vhf no funciona
+- el gps está averiado
+- MOTOR SE APAGA
+- motor se apaga
+- motor
 
 ## synonym:descripcion
 - descripción
