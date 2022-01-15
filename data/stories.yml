@@ -1,0 +1,13 @@
+version: "2.0"
+stories:
+- story: weather
+  steps:
+  - intent: weather
+  - action: utter_city
+  - intent: city
+  - action: action_weather_api
+- story: weather2
+  steps:
+  - action: utter_city
+  - intent: city
+  - action: action_weather_api

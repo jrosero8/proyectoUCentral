@@ -335,6 +335,7 @@
 ## intent:city
 - freno
 - gps
+- el gps no funciona
 
 ## synonym:descripcion
 - descripción
