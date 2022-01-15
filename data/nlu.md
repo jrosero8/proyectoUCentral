@@ -329,6 +329,13 @@
 - la columna con id [CIC0010](senal)
 - la columnas [cic0011](senal)
 
+## intent:weather
+- temperatura
+
+## intent:city
+- freno
+- gps
+
 ## synonym:descripcion
 - descripción
 

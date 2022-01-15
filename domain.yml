@@ -31,6 +31,12 @@ intents:
     use_entities: true
 - feedback:
     use_entities: true
+- clima:
+    use_entities: true
+- weather:
+    use_entities: true
+- city:
+    use_entities: true
 entities:
 - senal
 - fecha
@@ -156,6 +162,10 @@ responses:
   utter_feedback_neg:
   - text: Gracias, lo tendremos en cuenta para mejorar nuestro servicio.
   - text: De acuerdo, seguiremos mejorando nuestro servicio.
+  utter_city:
+  - text: Cuál palabra desea clasificar?
+  utter_temp:
+  - text: La clasificación es {temp}
 actions:
 - utter_saludo
 - utter_despedida
