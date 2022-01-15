@@ -1,0 +1,8 @@
+version: "2.0"
+stories:
+- story: Story from Conversation ID 9d5f22cc2746479d95ab7c0bc2e7ffba
+  steps:
+  - intent: weather
+  - action: utter_city
+  - intent: city
+  - action: action_weather_api
