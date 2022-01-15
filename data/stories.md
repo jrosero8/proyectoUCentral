@@ -1,6 +1,10 @@
-## saludo 1
+## happy weather
 * saludo
    - utter_saludo
+* weather
+   - utter_city
+* city
+   - utter_temp
 
 ## despedida 1 
 * despedida
@@ -9,7 +13,7 @@
    - slot{"feedback_value":"positivo"}
    - utter_feedback_pos
    - utter_despedida
-   
+
 ## despedida 2
 * despedida
    - utter_ask_feedback
@@ -21,7 +25,7 @@
 ## agradecer 1
 * agradecer
    - utter_agradecer
-   
+
 ## buen humor 1
 * buen_humor
    - utter_buen_humor
@@ -253,7 +257,7 @@
 * dar_senal{"senal":"cic0010"}
     - slot{"senal":"cic0010"}
     - utter_ask_tipo_serie
-    
+
 ## grafica serie 15
 * grafica_serie{"tipo_grafica":"serie","fecha":"2018-01-12"}
     - slot{"fecha":["2016-09-15", "2018-01-12"]}
@@ -276,8 +280,8 @@
     - utter_ask_senal
 * dar_senal{"senal":"cic0007"}
     - slot{"senal":"cic0007"}
-    - utter_ask_tipo_hist  
-   
+    - utter_ask_tipo_hist
+
 ## grafica hist 3
 * grafica_hist{"tipo_grafica":"histograma"}
     - slot{"tipo_grafica":"histograma"}
@@ -882,7 +886,7 @@
    - slot{"feedback_value":"negativo"}
    - utter_feedback_neg
    - utter_despedida
-   
+
 ## mix 5
 * descripcion
     - utter_ask_senal
@@ -1039,8 +1043,7 @@
 * grafica_serie{"tipo_grafica":"serie"}
     - slot{"tipo_grafica":"serie"}
     - utter_ask_tipo_serie
-    
-    
+
 ## mix 8
 * saludo
     - utter_saludo
@@ -1055,4 +1058,3 @@
     - utter_ask_tipo_serie
 * agradecer
     - utter_agradecer
-

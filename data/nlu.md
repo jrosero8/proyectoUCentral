@@ -335,6 +335,7 @@
 ## intent:city
 - freno
 - gps
+- clasificar
 
 ## synonym:descripcion
 - descripción
