@@ -22,6 +22,7 @@
 - que hay?
 - ¿Cómo va?
 - Saludos
+- buenos días
 
 ## intent:buen_humor
 - Perfecto
@@ -342,6 +343,8 @@
 - temp
 - clasificar una falla
 - quiero clasificar un sistema
+- clasificar falla
+- quiero clasificar una falla
 
 ## intent:city
 - freno
@@ -352,6 +355,11 @@
 - MOTOR SE APAGA
 - motor se apaga
 - motor
+- el motor no enciende
+- el motor no funciona
+- freno no fucniona
+- el motor se apaga
+- freno averiado
 
 ## synonym:descripcion
 - descripción
