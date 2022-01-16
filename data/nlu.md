@@ -361,6 +361,13 @@
 - el motor se apaga
 - freno averiado
 
+## intent:matricula
+- HK-2038
+
+## intent:costoTF
+- quiero el costo total
+- quiero el costo total de las fallas
+
 ## synonym:descripcion
 - descripción
 
