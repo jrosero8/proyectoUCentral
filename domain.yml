@@ -164,6 +164,8 @@ responses:
   - text: Cuál palabra desea clasificar?
   utter_temp:
   - text: La clasificación es {temp}
+  utter_prom_cost_falla_mat:
+  - text: El costo promedio de las fallas es {prom_cost_falla_mat}
 actions:
 - utter_saludo
 - utter_despedida
@@ -181,5 +183,6 @@ actions:
 - utter_feedback_pos
 - utter_feedback_neg
 - action_weather_api
+- action_prom_cost_falla_api
 forms: {}
 e2e_actions: []
