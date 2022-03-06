@@ -23,6 +23,7 @@
 - ¿Cómo va?
 - Saludos
 - buenos días
+- hello!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 ## intent:buen_humor
 - Perfecto
