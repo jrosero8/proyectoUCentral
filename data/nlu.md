@@ -128,6 +128,9 @@
 - quiero el costo total
 - quiero el costo total de las fallas
 
+## intent:costo_promedio_falla
+- El costo promedio de fallas para [HK-2029](matricula)
+
 ## synonym:descripcion
 - descripción
 

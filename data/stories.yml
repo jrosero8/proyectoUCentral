@@ -6,3 +6,9 @@ stories:
   - action: utter_city
   - intent: city
   - action: action_weather_api
+- story: Story from Conversation ID 5df21b9cc867495d97feecb253251e81
+  steps:
+  - intent: costo_promedio_falla
+    entities:
+    - matricula: HK-2029
+  - action: action_prom_cost_falla_api
