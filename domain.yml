@@ -35,6 +35,12 @@ intents:
     use_entities: true
 - city:
     use_entities: true
+- costoTF:
+    use_entities: true
+- promedio_costo_falla:
+    use_entities: true
+- costo_promedio_falla:
+    use_entities: true
 entities:
 - senal
 - fecha
@@ -45,6 +51,7 @@ entities:
 - tipo
 - unidad
 - feedback_value
+- matricula
 slots:
   color_value:
     type: rasa.shared.core.slots.CategoricalSlot
@@ -100,6 +107,11 @@ slots:
     - serie
     - histograma
   unidad:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+  matricula:
     type: rasa.shared.core.slots.TextSlot
     initial_value: null
     auto_fill: true
