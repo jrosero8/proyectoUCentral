@@ -37,8 +37,6 @@ intents:
     use_entities: true
 - costoTF:
     use_entities: true
-- promedio_costo_falla:
-    use_entities: true
 - costo_promedio_falla:
     use_entities: true
 entities:
@@ -118,9 +116,18 @@ slots:
     influence_conversation: true
 responses:
   utter_saludo:
-  - text: ¡Hola! Mi nombre es Botito, ¿en qué te puedo ayudar?
-  - text: Buenos días, ¿qué necesitas?
-  - text: Hola hola
+  - buttons:
+    - payload: /clasificar
+      title: Clasificar un reporte
+    - payload: /costopromediofallas
+      title: Costo promedio fallas
+    text: ¡Hola! Mi nombre es Botito, ¿en qué te puedo ayudar?
+  - buttons:
+    - payload: /clasificar
+      title: Clasificar un reporte
+    - payload: /costopromediofallas
+      title: Costo promedio fallas
+    text: Buenos días, ¿qué necesitas?
   utter_despedida:
   - text: ¡Adiós!
   - text: ¡Hasta pronto!
