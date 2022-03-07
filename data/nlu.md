@@ -91,10 +91,17 @@
 - Me despido
 - bye
 
-## intent:promedio_costo_falla
+## intent:costo_promedio_falla
 - el promedio de costo de fallas para la [HK-2029](matricula)
 - el promedio de costo de fallas para la [HK-2029](matricula) entre [2016-12-13](fecha) y [2017-11-13](fecha)
 - El costo promedio de la falla para [HK-2029](matricula)
+- El costo promedio de fallas para [HK-2029](matricula)
+- El costo promedio para [HK-4025](matricula)
+- El costo promedio de fallas para [HK-4021](matricula)
+- El costo promedio de fallas para [HK-2041](matricula)
+- El costo promedio de fallas para [HK-2097](matricula)
+- /costopromediofallas
+- [HK-2029](matricula)
 
 ## intent:weather
 - quiero clasificar un reporte
@@ -114,15 +121,6 @@
 ## intent:costoTF
 - quiero el costo total
 - quiero el costo total de las fallas
-
-## intent:costo_promedio_falla
-- El costo promedio de fallas para [HK-2029](matricula)
-- El costo promedio para [HK-4025](matricula)
-- El costo promedio de fallas para [HK-4021](matricula)
-- El costo promedio de fallas para [HK-2041](matricula)
-- El costo promedio de fallas para [HK-2097](matricula)
-- /costopromediofallas
-- [HK-2029](matricula)
 
 ## intent:city
 - 06.01.2010 13:20:21 T. Ruiz Florez (FREDRUIF) Tel. 4255050 262\n[AIRE ACONDICIONADO NO SALE SUFICIENTE AIRE](descripcionReporte)
