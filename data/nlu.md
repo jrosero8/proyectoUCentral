@@ -122,6 +122,7 @@
 - El costo promedio de fallas para [HK-2041](matricula)
 - El costo promedio de fallas para [HK-2097](matricula)
 - /costopromediofallas
+- [HK-2029](matricula)
 
 ## intent:city
 - AIRE ACONDICIONADO NO SALE SUFICIENTE AIRE
