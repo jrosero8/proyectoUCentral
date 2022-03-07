@@ -18,3 +18,16 @@ stories:
   - action: utter_city
   - intent: city
   - action: action_weather_api
+- story: Story from Conversation ID 76e7d6f8a4ec498da7d0cd04b70c1944
+  steps:
+  - intent: weather
+  - action: utter_city
+  - intent: city
+    entities:
+    - matricula: 06.01.2010
+    - matricula: 13:20:21
+    - matricula: '4255050'
+    - matricula: '262'
+  - slot_was_set:
+    - matricula: '262'
+  - action: action_weather_api
