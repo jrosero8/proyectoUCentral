@@ -24,6 +24,8 @@
 - Saludos
 - buenos días
 - hello!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+- Buenos dias
+- Hola
 
 ## intent:buen_humor
 - Perfecto
@@ -92,6 +94,7 @@
 ## intent:promedio_costo_falla
 - el promedio de costo de fallas para la [HK-2029](matricula)
 - el promedio de costo de fallas para la [HK-2029](matricula) entre [2016-12-13](fecha) y [2017-11-13](fecha)
+- El costo promedio de la falla para [HK-2029](matricula)
 
 ## intent:weather
 - quiero clasificar un reporte
@@ -106,6 +109,7 @@
 - quiero clasificar un sistema
 - clasificar falla
 - quiero clasificar una falla
+- /clasificar
 
 ## intent:costoTF
 - quiero el costo total
@@ -113,6 +117,13 @@
 
 ## intent:costo_promedio_falla
 - El costo promedio de fallas para [HK-2029](matricula)
+- El costo promedio para [HK-4025](matricula)
+- El costo promedio de fallas para [HK-4021](matricula)
+- El costo promedio de fallas para [HK-2041](matricula)
+- El costo promedio de fallas para [HK-2097](matricula)
+
+## intent:city
+- AIRE ACONDICIONADO NO SALE SUFICIENTE AIRE
 
 ## synonym:descripcion
 - descripción
@@ -125,3 +136,6 @@
 
 ## regex: matricula
 - [a-zA-Z]{2}-[0-9]{4}
+
+## regex:marcaTiempo
+- [0-9]{2}.[0-9]{2}.[0-9]{4} [a-zA-Z]
