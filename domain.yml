@@ -111,11 +111,6 @@ slots:
     initial_value: null
     auto_fill: true
     influence_conversation: true
-  matricula:
-    type: rasa.shared.core.slots.TextSlot
-    initial_value: null
-    auto_fill: true
-    influence_conversation: true
 responses:
   utter_saludo:
   - text: ¡Hola! Mi nombre es Botito, ¿en qué te puedo ayudar?
