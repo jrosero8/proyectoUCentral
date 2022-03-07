@@ -12,3 +12,9 @@ stories:
     entities:
     - matricula: HK-2029
   - action: action_prom_cost_falla_api
+- story: Story from Conversation ID f20565bc6e2b422a8cc38a5ed8ffac8d
+  steps:
+  - intent: weather
+  - action: utter_city
+  - intent: city
+  - action: action_weather_api
