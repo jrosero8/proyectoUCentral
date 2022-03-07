@@ -125,7 +125,7 @@
 - [HK-2029](matricula)
 
 ## intent:city
-- AIRE ACONDICIONADO NO SALE SUFICIENTE AIRE
+- 06.01.2010 13:20:21 T. Ruiz Florez (FREDRUIF) Tel. 4255050 262\n[AIRE ACONDICIONADO NO SALE SUFICIENTE AIRE](descripcionReporte)
 
 ## synonym:descripcion
 - descripción
@@ -140,4 +140,4 @@
 - [a-zA-Z]{2}-[0-9]{4}
 
 ## regex:marcaTiempo
-- [0-9]{2}.[0-9]{2}.[0-9]{4} [a-zA-Z]
+- [0-9]{2}.[0-9]{2}.[0-9]{4}[a-zA-Z]
