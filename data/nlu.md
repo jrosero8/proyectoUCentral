@@ -94,7 +94,6 @@
 - el promedio de costo de fallas para la [HK-2029](matricula) entre [2016-12-13](fecha) y [2017-11-13](fecha)
 
 ## intent:weather
-- temperatura
 - quiero clasificar un reporte
 - clasificación de un sistema
 - clasificar un reporte
@@ -103,26 +102,10 @@
 - deseo clasificar una falla
 - deseo clasificar un reporte
 - clasificar
-- temp
 - clasificar una falla
 - quiero clasificar un sistema
 - clasificar falla
 - quiero clasificar una falla
-
-## intent:city
-- freno
-- gps
-- el gps no funciona
-- el vhf no funciona
-- el gps está averiado
-- MOTOR SE APAGA
-- motor se apaga
-- motor
-- el motor no enciende
-- el motor no funciona
-- freno no fucniona
-- el motor se apaga
-- freno averiado
 
 ## intent:costoTF
 - quiero el costo total
