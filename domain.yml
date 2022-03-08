@@ -7,105 +7,18 @@ session_config:
 intents:
 - saludo:
     use_entities: true
-- despedida:
-    use_entities: true
-- buen_humor:
-    use_entities: true
-- agradecer:
-    use_entities: true
-- grafica:
-    use_entities: true
-- grafica_serie:
-    use_entities: true
-- grafica_hist:
-    use_entities: true
-- informacion:
-    use_entities: true
-- descripcion:
-    use_entities: true
-- mark:
-    use_entities: true
-- color:
-    use_entities: true
-- dar_senal:
-    use_entities: true
-- feedback:
-    use_entities: true
 - weather:
     use_entities: true
 - city:
     use_entities: true
-- costoTF:
-    use_entities: true
 - costo_promedio_falla:
     use_entities: true
 entities:
-- senal
 - fecha
-- tipo_grafica
-- mark_value
-- color_value
-- descripcion
-- tipo
-- unidad
-- feedback_value
 - matricula
 - descripcionReporte
 slots:
-  color_value:
-    type: rasa.shared.core.slots.CategoricalSlot
-    initial_value: null
-    auto_fill: true
-    influence_conversation: true
-    values:
-    - rojo
-    - azul
-    - verde
-  descripcion:
-    type: rasa.shared.core.slots.TextSlot
-    initial_value: null
-    auto_fill: true
-    influence_conversation: true
   fecha:
-    type: rasa.shared.core.slots.TextSlot
-    initial_value: null
-    auto_fill: true
-    influence_conversation: true
-  feedback_value:
-    type: rasa.shared.core.slots.CategoricalSlot
-    initial_value: null
-    auto_fill: true
-    influence_conversation: true
-    values:
-    - positivo
-    - negativo
-  mark_value:
-    type: rasa.shared.core.slots.CategoricalSlot
-    initial_value: null
-    auto_fill: true
-    influence_conversation: true
-    values:
-    - si
-    - no
-  senal:
-    type: rasa.shared.core.slots.TextSlot
-    initial_value: null
-    auto_fill: true
-    influence_conversation: true
-  tipo:
-    type: rasa.shared.core.slots.TextSlot
-    initial_value: null
-    auto_fill: true
-    influence_conversation: true
-  tipo_grafica:
-    type: rasa.shared.core.slots.CategoricalSlot
-    initial_value: null
-    auto_fill: true
-    influence_conversation: true
-    values:
-    - serie
-    - histograma
-  unidad:
     type: rasa.shared.core.slots.TextSlot
     initial_value: null
     auto_fill: true
@@ -134,57 +47,6 @@ responses:
     - payload: /costopromediofallas
       title: Costo promedio fallas
     text: Buenos días, ¿qué necesitas?
-  utter_despedida:
-  - text: ¡Adiós!
-  - text: ¡Hasta pronto!
-  - text: ¡Hasta la próxima!😊
-  - text: ¡Ciao, ciao!
-  utter_buen_humor:
-  - text: 👌
-  - text: 😊
-  utter_agradecer:
-  - text: No hay de que😀
-  - text: De nada, si necetas algo más aquí estoy
-  - text: De nada, no dudes en consultarme si tienes más dudas
-  utter_ask_senal:
-  - text: ¿Sobre que señal lo desea?
-  - text: ¿Para qué señal?
-  utter_ask_tipo_grafica:
-  - buttons:
-    - payload: /grafica{"tipo_grafica":"serie"}
-      title: Serie temporal
-    - payload: /grafica{"tipo_grafica":"histograma"}
-      title: Histograma
-    text: ¿Que tipo de gráfica desea?
-  utter_ask_tipo_serie:
-  - buttons:
-    - payload: /mark{"mark_value":"no"}
-      title: Sin marcar los puntos
-    - payload: /mark{"mark_value":"si"}
-      title: Marcando los puntos
-    text: ¿Cómo desea la gráfica de la serie?
-  utter_ask_tipo_hist:
-  - buttons:
-    - payload: /color{"color_value":"azul"}
-      title: Azul
-    - payload: /color{"color_value":"rojo"}
-      title: Roja
-    - payload: /color{"color_value":"verde"}
-      title: Verde
-    text: ¿De qué color desea las barras del histograma?
-  utter_ask_feedback:
-  - buttons:
-    - payload: /feedback{"feedback_value":"positivo"}
-      title: 👍
-    - payload: /feedback{"feedback_value":"negativo"}
-      title: 👎
-    text: ¿Cómo ha ido la conversación?
-  utter_feedback_pos:
-  - text: ¡Estupendo!🎉
-  - text: Muchas gracias por tu colaboración.
-  utter_feedback_neg:
-  - text: Gracias, lo tendremos en cuenta para mejorar nuestro servicio.
-  - text: De acuerdo, seguiremos mejorando nuestro servicio.
   utter_city:
   - text: Cuál palabra desea clasificar?
   utter_temp:
@@ -202,20 +64,6 @@ responses:
     text: 'Por:'
 actions:
 - utter_saludo
-- utter_despedida
-- utter_buen_humor
-- utter_agradecer
-- utter_ask_senal
-- utter_ask_tipo_grafica
-- utter_ask_tipo_serie
-- utter_ask_tipo_hist
-- action_grafica_serie
-- action_grafica_hist
-- action_informacion
-- action_descripcion
-- utter_ask_feedback
-- utter_feedback_pos
-- utter_feedback_neg
 - action_weather_api
 - action_prom_cost_falla_api
 - utter_ask_cost_prom_falla
