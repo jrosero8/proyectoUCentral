@@ -47,9 +47,9 @@ responses:
     - payload: /costopromediofallas
       title: Costo promedio fallas
     text: Buenos días, ¿qué necesitas?
-  utter_city:
+  utter_ask_clasificar_reporte:
   - text: Cuál palabra desea clasificar?
-  utter_temp:
+  utter_clasificar_reporte:
   - text: La clasificación es {temp}
   utter_prom_cost_falla_mat:
   - text: El costo promedio de las fallas es {prom_cost_falla_mat}
@@ -64,7 +64,7 @@ responses:
     text: 'Por:'
 actions:
 - utter_saludo
-- action_weather_api
+- action_clasificar_reporte
 - action_prom_cost_falla_api
 - utter_ask_cost_prom_falla
 forms: {}
